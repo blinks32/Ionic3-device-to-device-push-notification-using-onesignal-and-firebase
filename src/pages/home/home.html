@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <h1>Go Ahead, Click The Button. You Shoud Get A Notification.</h1>
+ <ion-item>
+  <button [ngStyle]="{'margin-top': 70 + 'px'}" color="nav-border-bottom" ion-button block (click)='Send_Push_Notification_To_Available_Users()'>
+    PUSH NOTIFICATION
+   </button>
+ </ion-item>
+  
+</ion-content>
